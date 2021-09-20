@@ -2,22 +2,21 @@
 
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
 
-Got techniques or resources to help? Create a new [pull request](https://github.com/juliemeridian/proper-name/pulls).
+Got techniques or resources to help? [Add an issue](https://github.com/makeitlegit/propername/issues) or [create a new pull request](https://github.com/makeitlegit/propername/pulls).
 
 ---
 
 # WHAT THIS IS
 
+Resources to overcome common name-related mistakes make by products and services.
 
+[definition.md](https://github.com/makeitlegit/propername/blob/main/definition.md) describes each part. From this, the plan is to:
+- create a data set for designers & devs to test their work (CSV, TXT, JSON)
+- formalize it into YAML so that products and services can read or write it
 
-# TO DO
+[resources.md](https://github.com/makeitlegit/propername/blob/main/resources.md) are links to additional tools that either help people with their own name issues, or help those creating products/services.
 
-A data set that tests all the parameters that might require fallback, in the following formats:
-- a .txt file, for Sketch to add to Data tab in Preferences (can that import a CSV?)
-- a Google Sheet, for Figma (Google Sheets Sync plugin), XD (Google Sheets for Adobe XD), and for generating a .csv for everything else
-- a JSON data set, for use by data plugins with Name variables (Figma: Data Lab, Content Reel; XD plugin Data Populator)
-
-A definition for a "proper name" (YAML?)
+[whyitmatters.md](https://github.com/makeitlegit/propername/blob/main/whyitmatters.md) is the reasoning behind making the effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette. We can do better.
 
 
 # ABOUT PROPER NAME
@@ -58,4 +57,4 @@ There’s still a lot of people feeling like they’re dealing with this on thei
 
 I realized how much easier it became to design after the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) established specific color contrast guidelines upon which people made tools that designers could use (such as [Stark](https://www.getstark.co/). The foundation is well-thought guidelines put through the rigors of standards organizations, but it’s the tools that apply them that make them real. It’s an open-source approach whose core isn’t limited by proprietary technology or licensing, that can be built upon freely for commercial or non-commercial work – whatever it takes to solve these problems. That’s the goal here. As there doesn’t appear to be any top-down effort yet from existing open source organizations, why not start a bottom-up one to set a vision and create/collect useful resources?
 
-I don’t know where this particular project will go…but at least I can get it started. Please create a new pull request if you have ideas for moving this forward!
+I don’t know where this particular project will go…but at least I can get it started. Please [add an issue](https://github.com/makeitlegit/propername/issues) if you have ideas for moving this forward, or better yet, [create a new pull request](https://github.com/makeitlegit/propername/pulls) if you're GitHub-savvy and in a spot to contribute!
