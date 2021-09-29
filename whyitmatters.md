@@ -1,18 +1,3 @@
-# Why It Matters
-
-## Your name means something
-Your chosen name is a core part of your identity, and there’s a story behind each part. It is representing you to the world. During your lifetime, you may have traditions or transitions that change your chosen name.
-
-## Your personal name(s) are your individual identity. 
-It might be a lightweight choice, such as the nickname you prefer. It might be a religious choice, honoring a community custom or a personal hallmark of faith. It might be a deeply deliberated choice to embrace an identity that fits your soul in a way a name given to you may not. It might be a mark of protest. Whatever it (or they) are, they should be yours.
-
-## Your family name(s) are a connection
-It might vary from being a part of different families over the course of parental or guardian changes. It might be a part of the formation or adjustment of families through marriage or union changes. Some people use only a single name and do not add a “family” name at all.
-
-## You may also have an artist name(s) 
-Your artist name(s) represent your identity for a body of artistic work.
-
-
 # Getting it right matters
 
 We’re human. Everyone, at some point, has mispronounced a name, written a name incorrectly, or gotten it entirely wrong. It happens. **e should make the effort to use people’s proper names, and when mistakes happen, help fix them.**
@@ -38,3 +23,37 @@ Andree Massaih, BBC News, 2018 Jun 27
 
 [“Don’t say my name wrong at graduation”](https://www.bbc.com/news/business-44601199)  
 Sean Coughlan, BBC News, 2018 Jun 27
+
+
+# Having control over the name you use
+
+There are many reasons why people choose to go by name that it different than the name used for legal documents.
+
+
+## Simplicity
+
+Many people adopt names that are simpler to use in interactions with people and systems in daily life. This does not mean they necessarily want to change their legal names which may preserve a connection or identity that is important for them. 
+
+This can go the other way too: a person may choose to have a legal name that is simpler to use in "official" interactions while using another name that reflects their identity in daily life.
+
+In a way, having a "use" name separate from a "legal" name can help people optimize for whichever method best preserves their identities while simplifying their lives.
+
+
+## Safety
+
+People should have control over how to represent themselves to other people in the product/service, including an alias or initials to limit discovery of their use or legal name. These options help shield them from unwanted attention. A system can still use verification of a legal name for sensitive transactions related to the account without also revealing it to other users.
+
+People can be targeted for harassment through their identity, and the more that is out in the open, the more abuse it can enable online or in real life: whether stalking from a prior relationship, harassment based on particular online activity, or hate aimed at people with markers of particular ethnicity, gender, or associations. Unless products and services take an active role in designing and moderating for the safety of the people who use them, they are enabling these vectors of abuse.
+
+
+## Artist names
+
+Artist Names are used as a public designation for professional work.
+
+**They might be simplifications** which either keep parts of their legal name like Joseph Fiennes (Joseph Alberic Twisleton-Wykeham-Fiennes) or choose an entirely new one like Lorde (Ella Marija Lani Yelich-O'Connor).
+
+**They might be unique** specifically to sound different than another performer. David Bowie (David Allen Jones) thought his proper name sounded too similar to Davey Jones of The Monkees and named himself after the Bowie knife. David Tennant (David John McDonald) needed a unique name to be part of the Actors' Guild and named himself after Neil Tennant of Pet Shop Boys.
+
+**They may change over time** to best suit their current artist persona, like Puff Daddy (sometimes Puffy) to P. Diddy to Diddy to Love (aka Brother Love) (Sean Love Combs).
+
+**They may be to separate their work** to specifically avoid family associations, such as Nicolas Cage (Nicholas Kim Coppola) avoiding the limelight of his uncle Francis Ford Coppola. The association they may be avoiding may even be their *own* body of prior work, such as Richard Bachman (later revealed to be a pen name of Steven King).

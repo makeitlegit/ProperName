@@ -1,6 +1,6 @@
-#Resources
+# Resources
 
-##Clarifying your proper name
+## Clarifying your proper name
 
 [LinkedIn Profile: Former or Maiden Name](https://propername.makeitlegit.com/related-efforts/Former%20or%20Maiden%20Name%20on%20your%20profile)
 [L]inkedIn Profile: Record and Display Your Name Pronunciation](https://propername.makeitlegit.com/related-efforts/Record%20and%20Display%20Your%20Name%20Pronunciation)
@@ -13,7 +13,7 @@
 > Describe how to pronounce your name using their recording service online or by phone, with the option to add meaning, origin, or stories about it. This is a free service of NameCoach which provides services to organizations to support correct name use.
 
 
-##Practical tips for sorting out name issues
+## Practical tips for sorting out name issues
 [Called the wrong name at work? Awkward…](https://www.bbc.com/news/business-46362259)
 > Dhruti Shah, BBC News, 2018 Dec 10
 “Whether your name is easy to pronounce or not, or not particularly unusual in your country, it seems everyone has a story of being called the wrong name at some point. But how do you reclaim your name, when, let’s face it, it could lead to mortal embarrassment?”
@@ -27,7 +27,7 @@
 “Any person living in Japan long enough knows that names are a nightmare. Leave pronunciation problems aside, and everybody will spell your katakana name the way they feel that day.”
 
 
-##Using other’s names correctly
+## Using other’s names correctly
 [The My Name, My Identity Campaign #mynamemyid](https://www.mynamemyidentity.org/)
 > “By pronouncing students’ names correctly, you can foster a sense of belonging and build positive relationships in the classroom, which are crucial for healthy social, psychological, and educational outcomes.”
 
