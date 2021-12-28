@@ -1,0 +1,32 @@
+ProperName:
+  # This is a format to accurately define a person's current name  for use in digital systems.
+  # Any field can accept more than one entry (for recognition's sake), where the
+  # first entry is the preferred option to use in the interface.
+
+- name:
+   personal-use: []
+   # individual name for common use. Example: "Hi, personal_use!"
+   personal-document: []
+   # individual name for document/system use, if different than personal-use name
+
+   heritage-use: []
+   # additional name for personal use. Example: middle names, lineage
+   heritage-document: []
+   # additional name for document/system use, if different than heritage-use name
+
+   family-use: []
+   # family name for common use, including prefixes & suffixes
+   # be sure searches and family groupings can bypass common prefixes & suffixes
+   family-document: []
+   # family name for document/system use, if different than family-use name
+   
+   title-prefix: []
+   # honorific or qualification preceding name. Example: Ms., Dr., Rep., Sen., Gov.
+   title-suffix: []
+   # honorific or qualification following name. Example: MD, CPA
+
+- helpers: 
+   how-to-say-it: []
+   # either a link to a file/page description, or a short sentence with rhyming or common words, or phonetics
+   how-to-spell-it: []
+   # most likely a short sentence to call out commonly overlooked letters
