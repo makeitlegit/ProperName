@@ -10,13 +10,15 @@ Got techniques or resources to help? [Add an issue](https://github.com/makeitleg
 
 Resources to overcome common name-related mistakes make by products and services.
 
-[definition.md](https://github.com/makeitlegit/propername/blob/main/definition.md) describes each part. From this, the plan is to:
+[definition.md](https://github.com/makeitlegit/propername/blob/main/definition.md) describes each part of a common format that can match how names are typically used in products/services. From this, the plan is to:
 - create a data set for designers & devs to test their work (CSV, TXT, JSON)
 - formalize it into YAML so that products and services can read or write it
 
+[bestpractices.md](https://github.com/makeitlegit/propername/blob/main/bestpractices.md) are guidelines for designing, building, and maintaining systems that will best honor proper names.
+
 [resources.md](https://github.com/makeitlegit/propername/blob/main/resources.md) are links to additional tools that either help people with their own name issues, or help those creating products/services.
 
-[whyitmatters.md](https://github.com/makeitlegit/propername/blob/main/whyitmatters.md) is the reasoning behind making the effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette. We can do better.
+[whyitmatters.md](https://github.com/makeitlegit/propername/blob/main/whyitmatters.md) is the reasoning behind making the effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette...and it is painfully common for people to hear that their "[name is invalid](https://www.twitter.com/yournameisvalid)" by a product or service. We can do better.
 
 
 # ABOUT PROPER NAME
@@ -26,7 +28,7 @@ There are so many systems that get people’s names wrong. While it’s easy for
 
 
 ## Is this even solvable?
-It can certainly be improved…though plenty of people are discouraged about the complexity once they’ve looked into it. They point to this blog post about [falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) as a reason for it to not be possible to “fix”.
+It can certainly be improved…though plenty of people are discouraged about the complexity once they’ve looked into it. They point to this blog post about [falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) as a reason that it is impossible to “fix” (rather than recognizing it as a useful resource about name variety).
 
 
 ## Is this a developer problem?
@@ -39,7 +41,7 @@ Yes and no. It is a diversity problem to have systems with assumptions that make
 To be clear, diverse teams are stronger for a lot of reasons…but just as a team member who happens to be underrepresented shouldn’t suddenly be designated the diversity lead (on top of their other work), it’s also not up to them to be the de facto testing lead to catch “diversity” issues. Let them do their actual job, and seek tools for everyone to do better.
 
 ## Aren’t there already groups working to fix this?
-Not in a comprehensive way, but there are many folks helping tackle particular name challenges in the Resources. Please share this with anyone that's looking to make progress on these issues!
+Not in a comprehensive way, but there are many folks helping tackle particular name challenges in the Resources. So this is an attempt to gather both awareness and best practices until baseline expectations are set(hopefully with good tools we can use and/or standards we can all point to). Please share this with anyone that's looking to make progress on these issues!
 
 ## But what about digital identity?
 "Digital Identity" sounded like a promising area that might provide ways to use proper names. Some of those efforts include:
