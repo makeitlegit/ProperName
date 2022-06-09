@@ -10,13 +10,13 @@ Got techniques or resources to help? [Add an issue](https://github.com/makeitleg
 
 Resources to overcome common name-related mistakes make by products and services.
 
-[definition.md](https://github.com/makeitlegit/propername/blob/main/definition.md) describes each part of a common format that can match how names are typically used in products/services. From this, the plan is to:
-- create a data set for designers & devs to test their work (CSV, TXT, JSON)
-- formalize it into YAML so that products and services can read or write it
-
 [bestpractices.md](https://github.com/makeitlegit/propername/blob/main/bestpractices.md) are guidelines for designing, building, and maintaining systems that will best honor proper names.
 
 [resources.md](https://github.com/makeitlegit/propername/blob/main/resources.md) are links to additional tools that either help people with their own name issues, or help those creating products/services.
+
+[definition.md](https://github.com/makeitlegit/propername/blob/main/definition.md) describes a proposal for a common format that can match how names are typically used in products/services. From this, the plan is to:
+- create a Google Sheets data set for designers & devs to test their work
+- formalize it into YAML so that products and services can read or write it
 
 [whyitmatters.md](https://github.com/makeitlegit/propername/blob/main/whyitmatters.md) is the reasoning behind making the effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette...and it is painfully common for people to hear that their "[name is invalid](https://www.twitter.com/yournameisvalid)" by a product or service. We can do better.
 

@@ -1,5 +1,5 @@
 ProperName:
-  # This is a format to accurately define a person's current name  for use in digital systems.
+  # This is a format to accurately define a person's current name for use in digital systems.
   # Any field can accept more than one entry (for recognition's sake), where the
   # first entry is the preferred option to use in the interface.
   # Ideally this would be a single definition by the user that can be imported so they don't need to re-enter it.
@@ -8,18 +8,18 @@ ProperName:
    personal-use: []
    # individual name for common use (preferred name). Example: "Hi, personal_use!"
    personal-document: []
-   # individual name for document/system use, if different than personal-use name
+   # individual name for document/system/legal use, if different than personal-use name
 
    heritage-use: []
    # additional name for personal use. Example: middle names, lineage
    heritage-document: []
-   # additional name for document/system use, if different than heritage-use name
+   # additional name for document/system/legal use, if different than heritage-use name
 
    family-use: []
    # family name for common use, including prefixes & suffixes
    # be sure searches and family groupings can bypass common prefixes & suffixes
    family-document: []
-   # family name for document/system use, if different than family-use name
+   # family name for document/system/legal use, if different than family-use name
    
    title-prefix: []
    # honorific or qualification preceding name. Example: Ms., Dr., Rep., Sen., Gov.

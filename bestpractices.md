@@ -26,14 +26,14 @@ There are two types of names that frequently get flagged as fake when automating
 - Names that are shared with celebrities (like "Michael Jackson")
 
 
-## Write better error messages
+## Prepare for predictable name variations
 
 These are common reasons for narrowly-scoped systems to reject names, and to add insult to injury, often do so by rudely responding to a person their name is "invalid".
 
 Note that the error validation should be handled on the front end so there's the opportunity to *escape* them rather than reject them.
 
 
-### Single-word names
+### Variation: single-word names
 
 **Names may consist of only one word (as their full name)**, a common practice in [Indonesia](https://twitter.com/perangkaiaksara/status/1300941766074327045?s=20) that also happens in Nigeria and [indigenous](https://twitter.com/DobroMichael/status/1301185855369998338?s=20) communities.
 
@@ -42,21 +42,21 @@ Note that the error validation should be handled on the front end so there's the
 - *DO not store the same name in both fields* as it is indistinguishable from a valid two-word name.
 
 
-### Shorter than supported
+### Variation: very short names
 
 **Names can be 1-3 characters**, whether popular Asian surnames like [Wu](https://twitter.com/shirleyywu/status/1300628412466298881?s=20) or [Xu](https://twitter.com/sinxccc/status/1300840632081149954?s=20), Danish names like [Då or ø](https://twitter.com/danishmunk/status/1301128159044272129?s=20), or 33rd U.S. President [Harry S Truman](https://www.nps.gov/hstr/faqs.htm). 
 
 - *DO allow 1 character names.* Don't assume they are abbreviations.
 
 
-### Longer than supported
+### Variation: very long names
 
 **Names that are longer than a field supports** might trigger a maximum character limit error on the form, or worse, be silently truncated by the back-end system. 
 
 - *DO set an upper limit, but make it very generous* and match that on form field validation.
 
 
-### Has a space in it
+### Variation: name with a space in it
 
 **Names with spaces** may be rejected if form inputs will not allow a space. One approach is to eliminate the space in the same for a kind of “camel case” variant, but that fails to indicate that something changed in the name.
 
@@ -64,14 +64,14 @@ Note that the error validation should be handled on the front end so there's the
 - *DO NOT special-case the term "nil" or "null"* as those can be names too. Use a zero-width space (U+200B) or "" (set it to "empty")
 
 
-### Has "special" characters
+### Variation: name has "special" characters
 
 **Names with accent marks and diacritical marks** may be more or less common in particular regions, but are as normal as any of these other variations. 
 
 - *DO use consistent substitutions (such as these [transliteration recommendations on p.24]("https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf")) when needed*.
 
 
-### Isn't named yet
+### Variation: isn't named yet
 
 **Infants may not be named for some time** and may need a special-case name designation (or to be flagged separately). Don't assume they will share any part of their name with parents or relatives.
 

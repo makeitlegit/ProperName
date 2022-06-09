@@ -14,6 +14,7 @@
 
 
 ## Practical tips for sorting out name issues
+
 [Called the wrong name at work? Awkward…](https://www.bbc.com/news/business-46362259)
 > Dhruti Shah, BBC News, 2018 Dec 10
 “Whether your name is easy to pronounce or not, or not particularly unusual in your country, it seems everyone has a story of being called the wrong name at some point. But how do you reclaim your name, when, let’s face it, it could lead to mortal embarrassment?”
@@ -28,6 +29,10 @@
 
 
 ## Using other’s names correctly
+
+[10 Best Practices for Using Preferred or Chosen Names at Work](https://www.adp.com/spark/articles/2022/06/10-best-practices-for-using-preferred-or-chosen-names-at-work.aspx)
+> "We are interested in promoting engagement and belonging. Not using a person's preferred or chosen name can create disengagement and compromise their sense of belonging to their team and organization.
+
 [The My Name, My Identity Campaign #mynamemyid](https://www.mynamemyidentity.org/)
 > “By pronouncing students’ names correctly, you can foster a sense of belonging and build positive relationships in the classroom, which are crucial for healthy social, psychological, and educational outcomes.”
 
