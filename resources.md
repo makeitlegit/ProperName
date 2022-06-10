@@ -3,7 +3,6 @@
 ## Clarifying your proper name
 
 [LinkedIn Profile: Former or Maiden Name](https://propername.makeitlegit.com/related-efforts/Former%20or%20Maiden%20Name%20on%20your%20profile)
-[L]inkedIn Profile: Record and Display Your Name Pronunciation](https://propername.makeitlegit.com/related-efforts/Record%20and%20Display%20Your%20Name%20Pronunciation)
 > Two resources to help other people get your name right on your LinkedIn profile for your professional identity.
 
 [NameDrop](https://namedrop.io/)
