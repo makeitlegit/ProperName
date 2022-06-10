@@ -1,31 +1,14 @@
-# Getting it right
+# Aspire to respect others
 
-We’re human. Everyone, at some point, has mispronounced a name, written a name incorrectly, or gotten it entirely wrong. It happens. **e should make the effort to use people’s proper names, and when mistakes happen, help fix them.**
+We’re human. Everyone, at some point, has mispronounced a name, written a name incorrectly, or gotten it entirely wrong. It happens. 
 
-There’s a lot of variety in how these names get mapped to the legal and cultural contexts you may live in – and having your name messed up with these can cause many problems for travel, employment, finances, and government services. A legal name is used for paperwork and processes, but even then it is woefully common to encounter legacy systems that limit what can be entered for a name. **We can make our products and services smarter about people’s names, and create common approaches for fallbacks.**
+**We should make the effort to use people’s proper names, and when mistakes happen, help fix them.**
 
-Read what people say about why choosing the name they use – and being called that name – matters to them:
+There’s a lot of variety in how these names get mapped to the legal and cultural contexts you may live in – and having your name messed up with these can cause many problems for travel, employment, finances, and government services. A legal name is used for paperwork and processes, but even then it is woefully common to encounter legacy systems that limit what can be entered for a name. 
 
-[The #SpeakingMyName campaign aims to raise awareness about importance of name inclusion](https://qns.com/2020/06/speakingmyname-campaign-aims-to-raise-awareness-about-importance-of-name-inclusion/)  
-Angélica Acevado, QNS, 2020 Jun 12
+**We can make our products and services smarter about people’s names, and create common approaches for fallbacks.**
 
-[People of Color Are Sharing the Meaning Behind Their Names After a GOP Senator Mocked Kamala Harris’s Name](https://www.buzzfeednews.com/amphtml/clarissajanlim/david-perdue-kamala-harris-name-mynameis-hashtag)  
-Clarissa-Jan Lim, Buzzfeed News, 2020 Oct 17
-
-[Lyft said their names are offensive. Candice Poon, Cara Dick, and Mike Finger disagree](https://boingboing.net/2019/12/19/lyft-said-their-real-names-are.html)  
-Xeni Jardin, Boing Boing, 2019 Dec 19
-
-[“My wife can never call my name in public”](https://www.bbc.com/news/world-42009219)  
-Rebecca Seales, BBC News, 2018 Jul 04
-
-[“My first name and surname are always a problem for people”](https://www.bbc.com/news/uk-44630061)  
-Andree Massaih, BBC News, 2018 Jun 27
-
-[“Don’t say my name wrong at graduation”](https://www.bbc.com/news/business-44601199)  
-Sean Coughlan, BBC News, 2018 Jun 27
-
-
-# Having control over _your_ name
+# Understand why people change
 
 There are many reasons why people choose to go by name that it different than the name used for legal documents.
 
@@ -57,5 +40,28 @@ Artist Names are used as a public designation for professional work.
 **They may change over time** to best suit their current artist persona, like Puff Daddy (sometimes Puffy) to P. Diddy to Diddy to Love (aka Brother Love) (Sean Love Combs).
 
 **They may be to separate their work** to specifically avoid family associations, such as Nicolas Cage (Nicholas Kim Coppola) avoiding the limelight of his uncle Francis Ford Coppola. The association they may be avoiding may even be their *own* body of prior work, such as Richard Bachman (later revealed to be a pen name of Steven King).
+
+# Listen to their own words
+
+Read what people say about why choosing the name they use – and being called that name – matters to them:
+
+[The #SpeakingMyName campaign aims to raise awareness about importance of name inclusion](https://qns.com/2020/06/speakingmyname-campaign-aims-to-raise-awareness-about-importance-of-name-inclusion/)  
+Angélica Acevado, QNS, 2020 Jun 12
+
+[People of Color Are Sharing the Meaning Behind Their Names After a GOP Senator Mocked Kamala Harris’s Name](https://www.buzzfeednews.com/amphtml/clarissajanlim/david-perdue-kamala-harris-name-mynameis-hashtag)  
+Clarissa-Jan Lim, Buzzfeed News, 2020 Oct 17
+
+[Lyft said their names are offensive. Candice Poon, Cara Dick, and Mike Finger disagree](https://boingboing.net/2019/12/19/lyft-said-their-real-names-are.html)  
+Xeni Jardin, Boing Boing, 2019 Dec 19
+
+[“My wife can never call my name in public”](https://www.bbc.com/news/world-42009219)  
+Rebecca Seales, BBC News, 2018 Jul 04
+
+[“My first name and surname are always a problem for people”](https://www.bbc.com/news/uk-44630061)  
+Andree Massaih, BBC News, 2018 Jun 27
+
+[“Don’t say my name wrong at graduation”](https://www.bbc.com/news/business-44601199)  
+Sean Coughlan, BBC News, 2018 Jun 27
+
 
 [< Back to ProperName overview ](README.md)
