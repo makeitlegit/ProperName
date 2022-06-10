@@ -57,3 +57,5 @@ Artist Names are used as a public designation for professional work.
 **They may change over time** to best suit their current artist persona, like Puff Daddy (sometimes Puffy) to P. Diddy to Diddy to Love (aka Brother Love) (Sean Love Combs).
 
 **They may be to separate their work** to specifically avoid family associations, such as Nicolas Cage (Nicholas Kim Coppola) avoiding the limelight of his uncle Francis Ford Coppola. The association they may be avoiding may even be their *own* body of prior work, such as Richard Bachman (later revealed to be a pen name of Steven King).
+
+[< Back to ProperName overview ](README.md)
