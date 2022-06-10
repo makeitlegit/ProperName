@@ -5,8 +5,7 @@
 
 # Start Here
 
-Proper Name is a knowlege-sharing effort. Getting people's names right is not an impossible task.  
-This is for developers, designers, and anyone else who shapes the products/services we all use.
+Proper Name is a knowledge-sharing effort. Getting people's names right is not an impossible task. This is for *developers, designers, and anyone else* who shapes the products/services we all use.
 
 [Best Practices](bestpractices.md)  
 Guidelines for designing, building, and maintaining systems that will best honor proper names.
@@ -18,8 +17,7 @@ Links to additional tools that either help people with their own name issues, or
 A proposal for a common format that can match how names are typically used in products/services.
 
 [Why It Matters](whyitmatters.md)  
-The reasoning behind making an effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette...and it is painfully common for people to hear that their "[name is invalid](https://www.twitter.com/yournameisvalid)" by a product or service.  
-We can do better.  
+The reasoning behind making an effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette...and it is painfully common for people to hear that their "[name is invalid](https://www.twitter.com/yournameisvalid)" by a product or service. We can do better.  
 
 
 
