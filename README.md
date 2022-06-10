@@ -13,7 +13,7 @@ Guidelines for designing, building, and maintaining systems that will best honor
 [Resources](resources.md)  
 Links to additional tools that either help people with their own name issues, or help those creating products/services.
 
-[Common Format Definition (experimental)](definition.md)  
+[Common Format (experimental)](definition.md)  
 A proposal for a common format that can match how names are typically used in products/services.
 
 [Why It Matters](whyitmatters.md)  
