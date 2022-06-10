@@ -37,8 +37,8 @@ Note that the error validation should be handled on the front end so there's the
 
 **Names may consist of only one word (as their full name)**, a common practice in [Indonesia](https://twitter.com/perangkaiaksara/status/1300941766074327045?s=20) that also happens in Nigeria and [indigenous](https://twitter.com/DobroMichael/status/1301185855369998338?s=20) communities.
 
-- *DO store the name in the most important name field (usually Last Name)*. When a system expects both a FirstName** and a LastName, fill your name in the LastName field since that’s usually used for sorting and make the FirstName **FNU** (“first name unknown”).
-- *DO prepare for "LNU"* A variant on this approach is to put the name in the FirstName field instead and made the LastName **LNU**. Consider looking for both cases as data may get imported from other systems now or in the future.
+- *DO be consistent about where to store the name*. When a system expects both a FirstName and a LastName, fill your name in the FirstName field since that’s usually used for sorting and make the LastName **LNU** (“last name unknown”).
+- *DO prepare for "FNU"* A variant on this approach is to put the name in the LastName field instead and make the FirstName **FNU**. Consider looking for both cases as data may get imported from other systems now or in the future.
 - *DO not store the same name in both fields* as it is indistinguishable from a valid two-word name.
 
 
