@@ -119,5 +119,6 @@ Names are a key identifier for finding people. Partial searches are the most pow
 *Why this is important*: A person's name may have been entered by someone other than themselves, and/or may have passed through another system that modified it. The only way for that person to reliably be found may be to search on a partial string in the middle of their name that's least likely to be misspelled or interpreted differently. It's not great to have your name messed up, but it's far worse to be delayed, have your requests rejected, or be entirely blocked from proceeding because your account can't be found.
 
 
+[< Back to ProperName overview ](README.md)
 
 
