@@ -1,11 +1,11 @@
 <!--![cover](/cover.png)
 // ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
-// Got techniques or resources to help? [Add an issue](https://github.com/makeitlegit/propername/issues) or [create a new pull request](https://github.com/makeitlegit/propername/pulls).
+// Got techniques or resources to help? [Add an issue](https://github.com/makeitlegit/ProperName/issues) or [create a new pull request](https://github.com/makeitlegit/ProperName/pulls).
 -->
 
 # Start Here
 
-Proper Name is a knowledge-sharing effort. Getting people's names right is not an impossible task. This is for *developers, designers, and anyone else* who shapes the products/services we all use.
+ProperName is a knowledge-sharing effort. Getting people's names right is not an impossible task. This is for *developers, designers, and anyone else* who shapes the products/services we all use.
 
 [Best Practices](bestpractices.md)  
 Guidelines for designing, building, and maintaining systems that will best honor proper names.
@@ -49,7 +49,7 @@ Not in a comprehensive way, but there are many folks helping tackle particular n
 - [Functional Identity](https://github.com/WebOfTrustInfo/rwot10-buenosaires/blob/master/topics-and-advance-readings/functional-identity-primer.md)
 - [Known Traveler Digital Identity](https://ktdi.org/)
 
-These all appear to be focused primarily on a unique identifier for each person. That’s a big hairy issue…and not the focus of Proper Name. There’s no guarantee someone else out there isn’t using the same name as you. In fact, you’ve probably already found people that do on the web or on social networks. The goal here is not uniqueness in the world – the goal is accuracy for your own name as you choose it.
+These all appear to be focused primarily on a unique identifier for each person. That’s a big hairy issue…and not the focus of ProperName. There’s no guarantee someone else out there isn’t using the same name as you. In fact, you’ve probably already found people that do on the web or on social networks. The goal here is not uniqueness in the world – the goal is accuracy for your own name as you choose it.
 
 
 ## How did this start?
@@ -59,4 +59,4 @@ There’s still a lot of people feeling like they’re dealing with this on thei
 
 I realized how much easier it became to design after the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) established specific color contrast guidelines upon which people made tools that designers could use (such as [Stark](https://www.getstark.co/). The foundation is well-thought guidelines put through the rigors of standards organizations, but it’s the tools that apply them that make them real. It’s an open-source approach whose core isn’t limited by proprietary technology or licensing, that can be built upon freely for commercial or non-commercial work – whatever it takes to solve these problems. That’s the goal here. As there doesn’t appear to be any top-down effort yet from existing open source organizations, why not start a bottom-up one to set a vision and create/collect useful resources?
 
-I don’t know where this particular project will go…but at least I can get it started. Please [add an issue](https://github.com/makeitlegit/propername/issues) if you have ideas for moving this forward, or better yet, [create a new pull request](https://github.com/makeitlegit/propername/pulls) if you're GitHub-savvy and in a spot to contribute!
+I don’t know where this particular project will go…but at least I can get it started. Please [add an issue](https://github.com/makeitlegit/ProperName/issues) if you have ideas for moving this forward, or better yet, [create a new pull request](https://github.com/makeitlegit/ProperName/pulls) if you're GitHub-savvy and in a spot to contribute!
