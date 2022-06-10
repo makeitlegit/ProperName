@@ -53,10 +53,18 @@ These all appear to be focused primarily on a unique identifier for each person.
 
 
 ## How did this start?
-My name is Julie Meridian and I split my time between [art](https://www.juliemeridian.com) and [UX design](https://www.makeitlegit.com). I saw this tweet thread about [name frustrations](https://twitter.com/rockbot/status/1270400995567169536) that got me thinking about it anew, and got annoyed that this issue seemed so intractable. So I started looking for best practices…and while there are many stories, and a few resources of folks making progress on parts of this, I couldn’t find anything comprehensive that tackled both the social and technical challenges.
+My name is Julie Meridian, and I pursue independent design projects under the banner of my consultancy [Make It Legit](https://www.makeitlegit.com). I split my time between [UX design](https://www.linkedin.com/in/juliemeridian) and [fine art and illustration](https://www.juliemeridian.com). 
 
-There’s still a lot of people feeling like they’re dealing with this on their own: from the people who dread how their name will be read, to the support folks trying to discern how ‘the system’ mangles their customers’ names, to the developers anguished by the complexity of this one piece amidst so many other puzzles to solve.
+I saw this tweet thread about [yet another name frustration](https://twitter.com/rockbot/status/1270400995567169536) that got me thinking about it anew, and got annoyed that this issue has been treated as such an intractable one. So I started looking for best practices…and while there are many stories, and a few resources of folks making progress on small parts of this, I couldn’t find anything comprehensive that tackled _both_ the social and technical challenges.
 
-I realized how much easier it became to design after the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) established specific color contrast guidelines upon which people made tools that designers could use (such as [Stark](https://www.getstark.co/). The foundation is well-thought guidelines put through the rigors of standards organizations, but it’s the tools that apply them that make them real. It’s an open-source approach whose core isn’t limited by proprietary technology or licensing, that can be built upon freely for commercial or non-commercial work – whatever it takes to solve these problems. That’s the goal here. As there doesn’t appear to be any top-down effort yet from existing open source organizations, why not start a bottom-up one to set a vision and create/collect useful resources?
+There are so many people feeling like they’re dealing with this on their own: 
+- people encountered their own names mangled yet again
+- support folks trying to discern where customers are in ‘the system’ and how to fix issues
+- developers anguished by the complexity of this one piece amidst so many other puzzles to solve
+- designers disappointed when they discover how their work appears with real use
+
+I realized how much easier it became to design after the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) established _specific_ color contrast guidelines. From these, people made tools that designers could use (such as [Stark](https://www.getstark.co/) to anticipate roadblocks for users and design workable variations. The foundation is well-thought guidelines upon which tools can be built to apply them that make them real. 
+
+This is an open-source approach so its core isn’t limited by proprietary technology or licensing. This can be built upon freely for commercial or non-commercial work – whatever it takes to solve these problems. That’s the goal here. As there doesn’t appear to be any top-down effort yet from existing open source organizations, why not start a bottom-up one to set a vision and create/collect useful resources?
 
 I don’t know where this particular project will go…but at least I can get it started. Please [add an issue](https://github.com/makeitlegit/ProperName/issues) if you have ideas for moving this forward, or better yet, [create a new pull request](https://github.com/makeitlegit/ProperName/pulls) if you're GitHub-savvy and in a spot to contribute!
