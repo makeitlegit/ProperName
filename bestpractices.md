@@ -1,10 +1,10 @@
-# BEST PRACTICES
+# Best Practices
 
 Many of these best practices relate to feature development such as content strategy, design methods, validation, and development processes. But those can only do so much to mitigate bad assumptions in system architecture and integrations, simplistic support policies, and overreliance on algorithms for content issues.
 
 These are the goals: work backward to figure out how to addres it in the most comprehensive way your company can control. Don't assume everyone at your company already understands how their choices ripple out to the way people experience your product/service.
 
-# STORING NAMES
+# Storing Names
 
 ## Make your database robust
 
@@ -76,7 +76,7 @@ Note that the error validation should be handled on the front end so there's the
 **Infants may not be named for some time** and may need a special-case name designation (or to be flagged separately). Don't assume they will share any part of their name with parents or relatives.
 
 
-# USING NAMES
+# Using Names
 
 ## Honor user choices for what names they display
 
