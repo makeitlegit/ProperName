@@ -13,6 +13,9 @@ During your lifetime, you may have multiple traditions or transitions that chang
 
 This format is a way to capture the full view of what is accurate for you *now*. Whatever it is, it defines you as you wish to be seen at this time, regardless of your legal name. Some of these might not be used; some of these might be used but have multiple valid names that could be used for them. Additionally, the order of how your names are presented can depending on the cultural context.
 
+- [YAML definition](https://github.com/makeitlegit/propername/blob/main/propername.yaml)
+- [Google Sheets data set](https://docs.google.com/spreadsheets/d/1ugh_7dFH_uewnOWooKRG-bWVQHj2ZqQxtYccNhuEfO8/edit?usp=sharing) with test variations called out in [Best Practices](https://github.com/makeitlegit/propername/blob/main/bestpractices.md)
+
 
 # Proper Name Fields
 
