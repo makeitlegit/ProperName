@@ -3,7 +3,7 @@
 // Got techniques or resources to help? [Add an issue](https://github.com/makeitlegit/propername/issues) or [create a new pull request](https://github.com/makeitlegit/propername/pulls).
 -->
 
-# START HERE
+# Start Here
 
 Proper Name is a knowlege-sharing effort. Getting people's names right is not an impossible task.  
 This is for developers, designers, and anyone else who shapes the products/services we all use.
