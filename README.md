@@ -1,21 +1,29 @@
-// ![cover](/cover.png)
+<!--![cover](/cover.png)
 // ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
 // Got techniques or resources to help? [Add an issue](https://github.com/makeitlegit/propername/issues) or [create a new pull request](https://github.com/makeitlegit/propername/pulls).
-// ---
+-->
 
-# WHAT THIS IS
+# START HERE
 
-Resources to overcome common name-related mistakes make by products and services.
+Proper Name is a knowlege-sharing effort. Getting people's names right is not an impossible task.  
+This is for developers, designers, and anyone else who shapes the products/services we all use.
 
-[bestpractices.md](bestpractices.md) are guidelines for designing, building, and maintaining systems that will best honor proper names.
+[Best Practices](bestpractices.md)  
+Guidelines for designing, building, and maintaining systems that will best honor proper names.
 
-[resources.md](https://github.com/makeitlegit/propername/blob/main/resources.md) are links to additional tools that either help people with their own name issues, or help those creating products/services.
+[Resources](resources.md)  
+Links to additional tools that either help people with their own name issues, or help those creating products/services.
 
-[definition.md](definition.md) describes a proposal for a common format that can match how names are typically used in products/services.
+[Common Format Definition (experimental)](definition.md)  
+A proposal for a common format that can match how names are typically used in products/services.
 
-[whyitmatters.md](whyitmatters.md) is the reasoning behind making the effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette...and it is painfully common for people to hear that their "[name is invalid](https://www.twitter.com/yournameisvalid)" by a product or service. We can do better.
+[Why It Matters](whyitmatters.md)  
+The reasoning behind making an effort to get people's names right. It's not a small thing to those who experience it, nor is it just poor etiquette...and it is painfully common for people to hear that their "[name is invalid](https://www.twitter.com/yournameisvalid)" by a product or service.  
+We can do better.  
 
-# ABOUT PROPER NAME
+
+
+# FAQ
 
 ## Why is this a thing?
 There are so many systems that get people’s names wrong. While it’s easy for a person to accidentally mess up someone else’s name (everyone’s done it at some point), the systems we use can still screw it up even when people mean well. Some people encounter these problems in practically every product and service they use. There’s got to be a better way.
