@@ -1,4 +1,4 @@
-# Getting it right matters
+# Getting it right
 
 We’re human. Everyone, at some point, has mispronounced a name, written a name incorrectly, or gotten it entirely wrong. It happens. **e should make the effort to use people’s proper names, and when mistakes happen, help fix them.**
 
@@ -25,7 +25,7 @@ Andree Massaih, BBC News, 2018 Jun 27
 Sean Coughlan, BBC News, 2018 Jun 27
 
 
-# Having control over the name you use
+# Having control over _your_ name
 
 There are many reasons why people choose to go by name that it different than the name used for legal documents.
 
