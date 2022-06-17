@@ -1,3 +1,7 @@
+[Home](README.md) • **Best Practices** • [Resources](resources.md) • [Common Format](definition.md) • [Why It Matters](whyitmatters.md)
+
+---
+
 # Best Practices
 
 Many of these best practices relate to feature development such as content strategy, design methods, validation, and development processes. But those can only do so much to mitigate bad assumptions in system architecture and integrations, simplistic support policies, and overreliance on algorithms for content issues.
