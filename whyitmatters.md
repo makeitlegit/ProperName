@@ -1,3 +1,7 @@
+[Home](README.md) • [Best Practices](bestpractices.md) • [Resources](resources.md) • [Common Format](definition.md) • **Why It Matters**
+
+---
+
 # Aspire to respect others
 
 We’re human. Everyone, at some point, has mispronounced a name, written a name incorrectly, or gotten it entirely wrong. It happens. 
