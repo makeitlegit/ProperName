@@ -1,3 +1,7 @@
+[Home](README.md) • [Best Practices](bestpractices.md) • **Resources** • [Common Format](definition.md) • [Why It Matters](whyitmatters.md)
+
+---
+
 # Resources
 
 ## Clarifying your proper name
