@@ -1,3 +1,7 @@
+[Home](README.md) • [Best Practices](bestpractices.md) • [Resources](resources.md) • **Common Format** • [Why It Matters](whyitmatters.md)
+
+---
+
 # Common Format (experimental)
 
 - [YAML definition](https://github.com/makeitlegit/propername/blob/main/propername.yaml)
