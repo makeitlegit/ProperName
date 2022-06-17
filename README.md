@@ -2,6 +2,9 @@
 // ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
 // Got techniques or resources to help? [Add an issue](https://github.com/makeitlegit/ProperName/issues) or [create a new pull request](https://github.com/makeitlegit/ProperName/pulls).
 -->
+**Home** • [Best Practices](bestpractices.md) • [Resources](resources.md) • [Common Format](definition.md) • [Why It Matters](whyitmatters.md)
+
+---
 
 # Start Here
 
