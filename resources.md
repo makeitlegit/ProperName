@@ -6,8 +6,12 @@
 
 ## Clarifying your proper name
 
-[LinkedIn Profile: Former or Maiden Name](https://propername.makeitlegit.com/related-efforts/Former%20or%20Maiden%20Name%20on%20your%20profile)
+[LinkedIn Profile: Former or Maiden Name](https://www.linkedin.com/help/linkedin/answer/a545784)   
+[LinkedIn Profile: Record and Display Your Name Pronunciation on Your Profile](https://www.linkedin.com/help/linkedin/answer/a550527)   
 > Two resources to help other people get your name right on your LinkedIn profile for your professional identity.
+
+[Slack Profile: Pronouns, Name recording, Name pronunciation](https://slack.com/help/articles/204092246-Edit-your-profile)
+> You can edit your profile to help others address you correctly.
 
 [NameDrop](https://namedrop.io/)
 >Create a "voice signature" that has a unique URL you can share anywhere.
