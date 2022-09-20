@@ -4,19 +4,19 @@
 
 # Best Practices
 
-Many of these best practices relate to feature development such as content strategy, design methods, validation, and development processes. But those can only do so much to mitigate bad assumptions in system architecture and integrations, simplistic support policies, and overreliance on algorithms for content issues.
+These goals can help make individual features better, but are most powerful when tackled at the lowest level (data structures) and the greatest breadth (centralized teams and systems). 
 
-These are the goals: work backward to figure out how to address it in the most comprehensive way your company can control. Don't assume everyone at your company already understands how their choices ripple out to the way people experience your product/service.
+Start where you can and bring awareness to the other parts of the org that can do something about it. Many of these best practices relate to feature development such as content strategy, design methods, validation, and development processes. But those can only do so much to mitigate upstream issues...so solutions here also touch on system architecture and integrations, centralized services (e.g. search), and support policies.
 
- 
 
-# Fundamentals for Getting the Right Name
+# Fundamentals for Name Inputs
 
 ## 1. Avoid the biggest problem areas
 
 ### 1a. DO store names using UTF-8
 
-Many name problems result from the way names are stored. UTF-8 doesn't require users or systems to glean the right ISO character set, which is the most common cause of garbled displays. 
+Many name problems result from the way names are stored. UTF-8 doesn't require users or systems to glean the right ISO character set, which is the most common cause of garbled displays.
+
 *Note that this is an English-centric baseline; while it covers many cases, it leaves out Traditional Chinese and possibly other character sets for particular languages.*
 
 - *DO capture and store names in UTF-8* 
@@ -44,8 +44,11 @@ This isn't an edge case. At that moment, when that happens to you, that's the vo
 
 ## 2. Have a human verify names flagged by community guidelines
 
-The best content moderation, including names, is a combination of system design and human oversight. There are two types of names that frequently get flagged as fake when automating content guidelines. These should go through secondary (human) validation before getting banned:
+The best content moderation, including names, is a combination of system design and human oversight. 
 
+Names that get flagged for violation should go through secondary (human) validation that involves direct outreach to these users *before* getting rejected or banned. Ideally those users will not be blocked from using the product/service in the meantime with some mild obfuscation of their name (initials for the questionable parts, or an innnocuous system-generated placeholder name). It's also a good idea to have a setting or an "allow" list once their name clears human validation so that any further flagging won't sideline their use of the produt/service (a potential vector for abuse). 
+
+There are two types of names that frequently get flagged as fake when automating content guidelines. 
 - Names that look like banned words (like "Candace Poon" or "Cara Dick" - also known as the [Scunthorpe Problem](https://en.wikipedia.org/wiki/Scunthorpe_problem))
 - Names that sound like banned words (like "[Phuc Dat Bich](https://www.independent.co.uk/news/world/australasia/man-called-phuc-dat-bich-posts-passport-to-facebook-to-prove-his-name-is-real-a6741586.html)")
 - Names that are shared with celebrities (like "Michael Jackson")
