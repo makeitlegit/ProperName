@@ -6,31 +6,52 @@
 
 Many of these best practices relate to feature development such as content strategy, design methods, validation, and development processes. But those can only do so much to mitigate bad assumptions in system architecture and integrations, simplistic support policies, and overreliance on algorithms for content issues.
 
-These are the goals: work backward to figure out how to addres it in the most comprehensive way your company can control. Don't assume everyone at your company already understands how their choices ripple out to the way people experience your product/service.
+These are the goals: work backward to figure out how to address it in the most comprehensive way your company can control. Don't assume everyone at your company already understands how their choices ripple out to the way people experience your product/service.
 
-# Storing Names
+ 
 
-## Make your database robust
+# Fundamentals for Getting the Right Name
 
-It's best to remember that people can (and do) travel, work, and live in places all around the world. Since every family and individual has their own ethnic and geographic history, assumptions based on location and language risk excluding potential users.
+## 1. Avoid the biggest problem areas
 
-In other words: the database should support the rich variety of names regardless of where your product or service operates, and/or what languages it supports. Their names are valid; make sure your system is intelligent enough to support them.
+### DO store names using UTF-8
 
-*UTF-8 helps preserve names best* as it doesn't require users or systems to glean the right ISO character set (the most common cause of garbled displays). Note that this is an English-centric baseline; while it covers many cases, it leaves out Traditional Chinese and possibly other character sets for particular languages.
+Many name problems result from the way names are stored. UTF-8 doesn't require users or systems to glean the right ISO character set, which is the most common cause of garbled displays. 
+*Note that this is an English-centric baseline; while it covers many cases, it leaves out Traditional Chinese and possibly other character sets for particular languages.*
 
-If those back end systems cannot properly store a name, you'll have to use fallbacks just to proceed. This can make it [difficult to be “found”](https://twitter.com/math3mag1c1an/status/1301224194844360705?s=21) in a system when you don’t know what fallback was used, so be consistent about them and make these conventions clear to anyone who uses the system.
+- *DO capture and store names in UTF-8* 
+- *DO NOT use fallbacks unless it is impossible to capture UTF-8*. This can make it [difficult to be “found”](https://twitter.com/math3mag1c1an/status/1301224194844360705?s=21) in a system when fallbacks are hidden or inconsistent. If you must...
+  - *DO make these conventions clear at the point of substitution*
+  - *DO notify your Support team about these specific fallbacks*
+  - *DO use the same fallbacks throughout your product/service* ideally through a centrally-defined function.
+
+### DO NOT build in assumptions that block names
+
+**Assumptions about location** are not helpful given that people travel, work, and live in places all around the world. Additionally, every person has their own unique ethnic, geographic, and family history. Location may determine whether your product/service is available within a workplace, or potentialy even within an entire country. However, location does not lead to any reasonable conclusions about which names to support. Do assume that *any* location may have a user with *any* type of name.
+
+**Assumptions about language** can cause similar problems as assumptions about location. Even if your product/service is only available in English, assume that it may have a user with *any* type of name.
+
+**Assumptions about "acceptable" content** happen when content validation is run on name input fields. While it's not a good idea to outright *reject* names, it's okay to introduce an extra step for caution. Anything that flags content validation should be reviewed by a human. It is also a good idea to let users know when this happens; unfortunately, they've probably had it happen many times before. Because of that, handling these in a thoughtful and humane way can make a huge difference for their experience with your product/service. See the next section about human verification. 
+
+### DO NOT EVER say a name is invalid
+
+Bad error messages are the fastest way to insult and infuriate your users. If you don't have control over other aspects of your product/service, you can still make a difference here – write better error messages. Remember that the strings you use for errors are first and foremost for the person attempting to use your product/service to understand what happened. If the system can't handle a name as typed, that's *your* problem. It does not mean their name is any less valid. 
+
+This isn't an edge case. At that moment, when that happens to you, that's the voice of a product or service rejecting you. It's like having someone refuse to pronounce your name correctly...or give you an unwanted nickname because they can't be bothered to respect your name. You feel bad, and they seem incompetent. 
+
+*In case you're not convinced how frequently this happens, follow [@yournameisvalid](https://twitter.com/yournameisvalid) and [@gotapostrophe](https://twitter.com/GotApostrophe) to get a regular reminder.*
 
 
-## Have a human verify names flagged by community guidelines
+## 2. Have a human verify names flagged by community guidelines
 
-There are two types of names that frequently get flagged as fake when automating content guidelines. These should go through secondary (human) validation before getting banned:
+The best content moderation, including names, is a combination of system design and human oversight. There are two types of names that frequently get flagged as fake when automating content guidelines. These should go through secondary (human) validation before getting banned:
 
 - Names that look like banned words (like "Candace Poon" or "Cara Dick" - also known as the [Scunthorpe Problem](https://en.wikipedia.org/wiki/Scunthorpe_problem))
 - Names that sound like banned words (like "[Phuc Dat Bich](https://www.independent.co.uk/news/world/australasia/man-called-phuc-dat-bich-posts-passport-to-facebook-to-prove-his-name-is-real-a6741586.html)")
 - Names that are shared with celebrities (like "Michael Jackson")
 
 
-## Prepare for predictable name variations
+## 3. Prepare for predictable name variations in forms and display
 
 These are common reasons for narrowly-scoped systems to reject names, and to add insult to injury, often do so by rudely responding to a person their name is "invalid".
 
@@ -43,7 +64,7 @@ Note that the error validation should be handled on the front end so there's the
 
 - *DO be consistent about where to store the name*. When a system expects both a FirstName and a LastName, fill your name in the FirstName field since that’s usually used for sorting and make the LastName **LNU** (“last name unknown”).
 - *DO prepare for "FNU"* A variant on this approach is to put the name in the LastName field instead and make the FirstName **FNU**. Consider looking for both cases as data may get imported from other systems now or in the future.
-- *DO not store the same name in both fields* as it is indistinguishable from a valid two-word name.
+- *DO NOT store the same name in both fields* as it is indistinguishable from a valid two-word name, and some people do have the same word as a first and last name.
 
 
 ### Variation: very short names
@@ -80,7 +101,7 @@ Note that the error validation should be handled on the front end so there's the
 **Infants may not be named for some time** and may need a special-case name designation (or to be flagged separately). Don't assume they will share any part of their name with parents or relatives.
 
 
-# Using Names
+# Ways to Ensure Features Use Names Right
 
 ## Honor user choices for what names they display
 
