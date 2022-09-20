@@ -14,7 +14,7 @@ These are the goals: work backward to figure out how to address it in the most c
 
 ## 1. Avoid the biggest problem areas
 
-### DO store names using UTF-8
+### 1a. DO store names using UTF-8
 
 Many name problems result from the way names are stored. UTF-8 doesn't require users or systems to glean the right ISO character set, which is the most common cause of garbled displays. 
 *Note that this is an English-centric baseline; while it covers many cases, it leaves out Traditional Chinese and possibly other character sets for particular languages.*
@@ -25,7 +25,7 @@ Many name problems result from the way names are stored. UTF-8 doesn't require u
   - *DO notify your Support team about these specific fallbacks*
   - *DO use the same fallbacks throughout your product/service* ideally through a centrally-defined function.
 
-### DO NOT build in assumptions that block names
+### 1b. DO NOT build in assumptions that block names
 
 **Assumptions about location** are not helpful given that people travel, work, and live in places all around the world. Additionally, every person has their own unique ethnic, geographic, and family history. Location may determine whether your product/service is available within a workplace, or potentialy even within an entire country. However, location does not lead to any reasonable conclusions about which names to support. Do assume that *any* location may have a user with *any* type of name.
 
@@ -33,7 +33,7 @@ Many name problems result from the way names are stored. UTF-8 doesn't require u
 
 **Assumptions about "acceptable" content** happen when content validation is run on name input fields. While it's not a good idea to outright *reject* names, it's okay to introduce an extra step for caution. Anything that flags content validation should be reviewed by a human. It is also a good idea to let users know when this happens; unfortunately, they've probably had it happen many times before. Because of that, handling these in a thoughtful and humane way can make a huge difference for their experience with your product/service. See the next section about human verification. 
 
-### DO NOT EVER say a name is invalid
+### 1c. DO NOT EVER say a name is invalid
 
 Bad error messages are the fastest way to insult and infuriate your users. If you don't have control over other aspects of your product/service, you can still make a difference here – write better error messages. Remember that the strings you use for errors are first and foremost for the person attempting to use your product/service to understand what happened. If the system can't handle a name as typed, that's *your* problem. It does not mean their name is any less valid. 
 
@@ -58,7 +58,7 @@ These are common reasons for narrowly-scoped systems to reject names, and to add
 Note that the error validation should be handled on the front end so there's the opportunity to *escape* them rather than reject them.
 
 
-### Variation: single-word names
+### 3a. Variation: single-word names
 
 **Names may consist of only one word (as their full name)**, a common practice in [Indonesia](https://twitter.com/perangkaiaksara/status/1300941766074327045?s=20) that also happens in Nigeria and [indigenous](https://twitter.com/DobroMichael/status/1301185855369998338?s=20) communities.
 
@@ -67,21 +67,21 @@ Note that the error validation should be handled on the front end so there's the
 - *DO NOT store the same name in both fields* as it is indistinguishable from a valid two-word name, and some people do have the same word as a first and last name.
 
 
-### Variation: very short names
+### 3b. Variation: very short names
 
 **Names can be 1-3 characters**, whether popular Asian surnames like [Wu](https://twitter.com/shirleyywu/status/1300628412466298881?s=20) or [Xu](https://twitter.com/sinxccc/status/1300840632081149954?s=20), Danish names like [Då or ø](https://twitter.com/danishmunk/status/1301128159044272129?s=20), or 33rd U.S. President [Harry S Truman](https://www.nps.gov/hstr/faqs.htm). 
 
 - *DO allow 1 character names.* Don't assume they are abbreviations.
 
 
-### Variation: very long names
+### 3c. Variation: very long names
 
 **Names that are longer than a field supports** might trigger a maximum character limit error on the form, or worse, be silently truncated by the back-end system. 
 
 - *DO set an upper limit, but make it very generous* and match that on form field validation.
 
 
-### Variation: name with a space in it
+### 3d. Variation: name with a space in it
 
 **Names with spaces** may be rejected if form inputs will not allow a space. One approach is to eliminate the space in the same for a kind of “camel case” variant, but that fails to indicate that something changed in the name.
 
@@ -89,21 +89,21 @@ Note that the error validation should be handled on the front end so there's the
 - *DO NOT special-case the term "nil" or "null"* as those can be names too. Use a zero-width space (U+200B) or "" (set it to "empty")
 
 
-### Variation: name has "special" characters
+### 3e. Variation: name has "special" characters
 
 **Names with accent marks and diacritical marks** may be more or less common in particular regions, but are as normal as any of these other variations. 
 
 - *DO use consistent substitutions (such as these [transliteration recommendations on p.24]("https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf")) when needed*.
 
 
-### Variation: isn't named yet
+### 3f. Variation: isn't named yet
 
 **Infants may not be named for some time** and may need a special-case name designation (or to be flagged separately). Don't assume they will share any part of their name with parents or relatives.
 
 
 # Ways to Ensure Features Use Names Right
 
-## Honor user choices for what names they display
+## I. Honor user choices for what names they display
 
 There are many reasons why people may choose to use a different name than their legal name. Having a product/service use their legal name can be more than disconcerting – it can have serious repercussions for that person's safety. 
 
@@ -116,7 +116,7 @@ In addition, artists use artist names are a way to separate **public** personas 
 - *If your system allows for user-alterable display names, it's possible that your users will not expect their proper name to be shown, or be connected to their display name.*
 
 
-## Make your tone appropriate
+## II. Make your tone appropriate
 
 Names are used to make systems feel more personal, and it can be disconcerting when the wrong name is used. Since names usually consist of multiple parts, consider what parts matter for the tone:
 
@@ -124,7 +124,7 @@ Names are used to make systems feel more personal, and it can be disconcerting w
 - When the context is formal, address by title-prefix and family-use name.
 
 
-## Make your alphabetical sorts smart
+## III. Make your alphabetical sorts smart
 
 Names are also used for sorting people. They are often sorted by affinity networks & activity to ensure relevance to the viewer & context. Even so...at some point, sorts always fall back to a simple alphabetical order. Since names usually consist of multiple parts, consider what parts matter for the sort:
 
@@ -132,7 +132,7 @@ Names are also used for sorting people. They are often sorted by affinity networ
 - When the context is formal, sort on title-prefix + family-use name (special case for single-word names: use personal-use name if it's LNU). A note on internationalization: some countries will expect to sort on family-use name only and may ignore any prefixes that originate there (such as in the Netherlands where "Van Gogh" may be sorted under G).
 
 
-## Make your search smart
+## IV. Make your search smart
 
 Names are a key identifier for finding people. Partial searches are the most powerful tool to ensure people can continue to use the fundamental purpose of the system even if/when their names get mangled. 
 
