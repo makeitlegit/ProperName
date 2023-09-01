@@ -8,7 +8,7 @@
 
 # Start Here
 
-ProperName is a knowledge-sharing effort. Getting people's names right is not an impossible task. This is for *developers, designers, and anyone else* who shapes the products/services we all use.
+ProperName is a knowledge-sharing effort. Getting people's names right is not an impossible task. This is for *developers, designers, and anyone else* who shapes the products/services we all use. It should be used in conjunction with guidance about the globalization/internationalization (I18N) appropriate for the locale.
 
 ## [Best Practices](bestpractices.md)  
 Guidelines for designing, building, and maintaining systems that will best honor proper names.
@@ -31,7 +31,9 @@ There are so many systems that get people’s names wrong. While it’s easy for
 
 
 ## Is this even solvable?
-It can certainly be improved…though plenty of people are discouraged about the complexity once they’ve looked into it. They point to this blog post about [falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) as a reason that it is impossible to “fix” (rather than recognizing it as a useful resource about name variety).
+While it may be impractical to solve for every variant, given that legal name rules vary across countries (and even states in the U.S.), it can certainly be improved.
+
+It's true that plenty of solo developers are discouraged about the complexity once they’ve looked into it. They point to this blog post about [falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) or [this version with examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/) as a reason that it is impossible to “fix”. That's why the goal needs to be "improve" rather than "solve". A little effort can make the difference for many people.
 
 
 ## Is this a developer problem?

@@ -21,10 +21,10 @@ ProperName:
    family-document: []
    # family name for document/system/legal use, if different than family-use name
    
-   title-prefix: []
-   # honorific or qualification preceding name. Example: Ms., Dr., Rep., Sen., Gov.
-   title-suffix: []
-   # honorific or qualification following name. Example: MD, CPA
+   title-role: []
+   # honorific or qualification about role. Example: Ms., Dr., Rep., Sen., Gov.
+   title-education: []
+   # qualification about education. Example: MD, CPA
 
 - helpers: 
    how-to-say-it: []

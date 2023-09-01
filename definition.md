@@ -80,18 +80,18 @@ A family name for document/system/legal matches, if different than your family-u
 
 This is an honorific used for addressing someone in a polite formal fashion, or a qualification that indicates a noteworthy status or a role.
 
-There can be more than one honorific, and there is a specific order for those that appear before names ([pre-nominal](https://en.wikipedia.org/wiki/Pre-nominal_letters)) and those that appear after them ([post-nominal](https://en.wikipedia.org/wiki/Post-nominal_letters)).
+There can be more than one honorific, and in western contexts there is a specific order for those that appear before names ([pre-nominal](https://en.wikipedia.org/wiki/Pre-nominal_letters)) and those that appear after them ([post-nominal](https://en.wikipedia.org/wiki/Post-nominal_letters)).
 
-### title-prefix
+### title-role
 
-An honorific or qualification that precedes a name.
+A formal honorific related to experience or gender/age/marital status. In western contexts, they precede a name. The honorific Mx. is a non-gendered alternative to the gendered honorifics Ms. (female) or Mr. (male).
 
-> *example*: Ms., Madam., Dr., Rep., Sen., Gov.
+> *example*: Ms./Mr./Mx., Dr., Rep., Sen., Gov.
 
-### title-suffix
-An honorific or qualification that follows a name.
+### title-education
+A formal qualification related to education. In western contexts, they follow a name.
 
-> *example*: MD, CPA
+> *example*: MD, CPA, Esq.
 
 
 # Ways to describe your name
