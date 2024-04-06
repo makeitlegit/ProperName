@@ -106,8 +106,8 @@ Note that the error validation should be handled on the front end so there's the
 
 **Names with accent marks and diacritical marks** may be more or less common in particular regions but are as normal as any of these other variations. 
 
-- *DO plan for apostrophes*. They're one of the most commonly-occuring special characters in a name, but some systems block them because they have a special meaning for databases. So be sure to [escape the apostrophe]("https://github.com/makeitlegit/ProperName/issues/6") on input from the start to prevent database issues. 
-- *DO use consistent substitutions (such as these [transliteration recommendations on p.24]("https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf")) when needed*.
+- *DO plan for apostrophes*. They're one of the most commonly-occuring special characters in a name, but some systems block them because they have a special meaning for databases. So be sure to [escape the apostrophe](https://github.com/makeitlegit/ProperName/issues/6) on input from the start to prevent database issues. 
+- *DO use consistent substitutions (such as these [transliteration recommendations on p.24](https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf)) when needed*.
 
 ### 3f. Variation: name varies in capitalization
 
@@ -146,7 +146,7 @@ Sometimes people will write their personal name as their legal first name along 
 
 ## III. Make your initials smart
 
-Initials can be a useful shorthand for a person's name when they fit what they would write themselves. They may be used as a visual identifier or in place of a [signature]("https://github.com/makeitlegit/ProperName/issues/15").
+Initials can be a useful shorthand for a person's name when they fit what they would write themselves. They may be used as a visual identifier or in place of a [signature](https://github.com/makeitlegit/ProperName/issues/15).
 
 - When the family-name is hyphenated, use the first letter of each word before and after the hyphen. (e.g. Aaron Taylor-Johnson = ATJ)
 - When the family-name is multiple words, use the first letter of each word and honor their capitalization. (e.g. Vincent van Gogh = VvG)
@@ -167,19 +167,26 @@ Names are a key identifier for finding people. Partial searches are the most pow
 - *DO search across all stored name fields*, no matter what they're labeled (First, Last, etc.).
 - *DO allow partial search terms.* Some people who have changed their family name will show their previous family name in parentheses to more easily be found.
 - *DO NOT rely on first letter matches*, since names can end up truncated or stored in surprising ways.
-- *DO search on alternatives for special characters*, including potential common substitutions (like these [transliteration recommendations on p.24 of these international travel document guidelines]("https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf")).
+- *DO search on alternatives for special characters*, including potential common substitutions (like these [transliteration recommendations on p.24 of these international travel document guidelines](https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf)).
 
 *Why this is important*: A person's name may have been entered by someone other than themselves, and/or may have passed through another system that modified it. The only way for that person to reliably be found may be to search on a partial string in the middle of their name that's least likely to be misspelled or interpreted differently. It's not great to have your name messed up, but it's far worse to be delayed, have your requests rejected, or be entirely blocked from proceeding because your account can't be found.
 
-## VI. Be flexible about matching names, or match a unique identifier instead
+## VI. Be flexible about matching names (or match a unique identifier instead)
 
 Any feature that depends on one record's name field matching another needs to be savvy about potential substitutions.
 
 - *DO NOT match on name if a unique identifier exists*. For instance, Passport ID number may be the best way to identify a person if your product/service involves global travel. Show and tell people how to find that number, and use it whenever their ID must be confirmed.
-- *DO check for substitutions when a match isn't found (such as these [transliteration recommendations on p.24]("https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf"))*.
+- *DO check for substitutions when a match isn't found (such as these [transliteration recommendations on p.24](https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf))*.
+
+## VII. Make your autocorrect smart
+
+It's maddening to correctly type a name only to have the system change it. This can lead to potentially embarrassing interactions too.
+
+- *DO NOT leave autocorrect on for input fields for names*. Assume that every input field includes autocorrect by default, so take care to disable it for any field asking for a name.
+- *DO ensure your autocorrect dictionary isn't leaving out common names*. Contact the I Am Not a Typo campaign for a [common name spreadsheet](https://www.iamnotatypo.org/dear-tech-giants) to train yours to help fill in gaps for "ethnic" names. 
 
 
-
+  
 [< Back to ProperName overview ](README.md)
 
 
